@@ -59,3 +59,19 @@ The other issue was that the character list was fixed, and we eventually wanted 
 As we wanted the client to be able to switch between a few different word lists, we made the client download the word list when starting up from the server.  
 
 This was done as a regular HTTP request to make Cloudflare cache the requests, and because sending large wordlists over the websocket will hit the max websocket message size.
+
+## Acquiring workers
+As I don't have too much compute power to play around with, I found a cool service which gives you a very unreliable alpine docker container to play around with, kind of similar to what Amazon Spot is doing.  
+As the architecture here is very reliable to worker node failures, the unreliability of the worker nodes is not a issue. The only issue is managing the worker nodes to make sure they are online, or create new ones if some disconnect.  
+
+For this I made a service that will ask the controller for the status of worker nodes, and if some disconnect or never connect it will request more nodes and automatically set them up and connect them.  
+
+## Monitoring
+As there is a lot of worker nodes in a lot of different locations administered by a lot of different people, monitoring this becomes a mess.
+
+To simplify monitoring, we made the controller work as a [prometheus exporter](https://en.wikipedia.org/wiki/Prometheus_(software))  
+This allows us to use something like [grafana](https://en.wikipedia.org/wiki/Grafana) to create beautiful graphs.
+
+However, as this was running on my laptop until completion, grafana was never set up and I just interacted with the prometheus exporter directly.
+
+![](images/prometheus-exporter-output.png)
