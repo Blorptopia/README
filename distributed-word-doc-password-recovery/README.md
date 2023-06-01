@@ -4,8 +4,8 @@ One day before VG2 was having a English exam I got this message from a classmate
 
 ![classmate asking for help on cracking a exam password](images/pawel-word-password.png)  
 
-Now, I could help him cheat on the exam, however that would be no fun.  
-What would be fun however, would be showing him the exam banner, and leaving him alone to the exam without cheating.  
+Now instead of helping him cheat on his exam, why not make a fun project to mess with him thinking he would get the password.  
+The plan was to show him the exam banner, but not give him the password as that would be cheating.  
 
 ## The plan
 The plan was to create a distributed word password cracking system, as I assumed that the password would be too difficult to crack with only one PC/thread.  
@@ -57,3 +57,5 @@ The other issue was that the character list was fixed, and we eventually wanted 
 
 ### Making the worker load the character/word list
 As we wanted the client to be able to switch between a few different word lists, we made the client download the word list when starting up from the server.  
+
+This was done as a regular HTTP request to make Cloudflare cache the requests, and because sending large wordlists over the websocket will hit the max websocket message size.
