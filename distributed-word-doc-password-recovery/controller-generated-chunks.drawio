@@ -1,0 +1,53 @@
+<mxfile host="app.diagrams.net" modified="2023-06-01T09:43:18.359Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="oCvcqx8gjsoblu1YA5EN" version="21.3.5" type="device">
+  <diagram name="Page-1" id="_lyjYMQojyQKbqZuF76q">
+    <mxGraphModel dx="1434" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tvA27g66VqHb9FH4ZzZy-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tvA27g66VqHb9FH4ZzZy-1" target="tvA27g66VqHb9FH4ZzZy-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tvA27g66VqHb9FH4ZzZy-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tvA27g66VqHb9FH4ZzZy-1" target="tvA27g66VqHb9FH4ZzZy-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="220" />
+              <mxPoint x="250" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tvA27g66VqHb9FH4ZzZy-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tvA27g66VqHb9FH4ZzZy-1" target="tvA27g66VqHb9FH4ZzZy-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tvA27g66VqHb9FH4ZzZy-1" value="Control node" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="320" y="110" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tvA27g66VqHb9FH4ZzZy-3" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Password list:&lt;br&gt;&lt;/div&gt;&lt;div&gt;a&lt;/div&gt;&lt;div&gt;b&lt;/div&gt;&lt;div&gt;c&lt;/div&gt;&lt;div&gt;d&lt;/div&gt;&lt;div&gt;e&lt;/div&gt;&lt;div&gt;f&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="540" y="75" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="tvA27g66VqHb9FH4ZzZy-4" value="Worker node" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="210" y="460" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tvA27g66VqHb9FH4ZzZy-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tvA27g66VqHb9FH4ZzZy-6" target="tvA27g66VqHb9FH4ZzZy-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvA27g66VqHb9FH4ZzZy-6" value="&lt;div&gt;Chunk&lt;/div&gt;&lt;div&gt;a&lt;/div&gt;&lt;div&gt;b&lt;/div&gt;&lt;div&gt;c&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="210" y="250" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tvA27g66VqHb9FH4ZzZy-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tvA27g66VqHb9FH4ZzZy-8" target="tvA27g66VqHb9FH4ZzZy-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvA27g66VqHb9FH4ZzZy-8" value="&lt;div&gt;Chunk&lt;/div&gt;&lt;div&gt;d&lt;/div&gt;&lt;div&gt;e&lt;/div&gt;&lt;div&gt;f&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="320" y="250" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tvA27g66VqHb9FH4ZzZy-10" value="Worker node" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="320" y="460" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
