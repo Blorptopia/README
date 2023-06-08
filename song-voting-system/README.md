@@ -57,7 +57,7 @@ Unfortunatley this did not happen as it would take too much time away from the s
 
 Execution of the voting otherwise went pretty well, however the load was way higher than expected.
 
-![Server getting 5+ votes per second](assets/vote_logs.mp4)
+https://github.com/Blorptopia/README/assets/118888460/d3612b7a-3b0c-4a82-9587-11154cbd53ae
 
 I also added statistics to the news screen in the school area.
 
