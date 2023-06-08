@@ -80,18 +80,18 @@ This was great in this instance as it let me restart the server without having t
 ### Cheating?
 As every vote was saved as a unique object in the database with a timestamp of when it was registered, I decided to do a bit of graphs.
 
-![Graph showing tons of votes on one song compared to the others](images/graphs/votes_per_song.png)
+![Graph showing tons of votes on one song compared to the others](assets/graphs/votes_per_song.png)
 
 This was weird to me so I did a bit more graphing.
 
-![Graph showing vote rate spike on 2 songs](images/graphs/vote_rate.png)
+![Graph showing vote rate spike on 2 songs](assets/graphs/vote_rate.png)
 
 So seems like someone found out how to use the API to artifically get tons of votes on one song.
 
 Thankfully it was very easy to just drop the votes in the specified time range.
 
 ### Unbalanced system
-![Graph showing votes gradually going down the later the song was submitted](images/graphs/votes_per_song.png)
+![Graph showing votes gradually going down the later the song was submitted](assets/graphs/votes_per_song.png)
 
 When I was making the system I assumed it would be in two waves - first wave being adding songs, and once thats done everyone would vote on it.
 Sadly that did not happen, and that caused songs that was submitted first to have a way higher chance of being shown to potential voters.
@@ -104,6 +104,6 @@ This included removing christmas songs as they where sick of them, and ignoring 
 Thankfully though - nobody enjoyed the song selection. If only they would have used the system this wouldnt have been a issue.
 
 ### Final stats
-![](images/stats/postmortem_stats.png)
+![](assets/stats/postmortem_stats.png)
 
 We managed to get over 400 songs and over 18,000 votes sent in, and I would guess about 2,000 was lost due to the server being off.
