@@ -24,7 +24,7 @@ Now this system *works* however it has tons of issues:
 
 ## Submitting songs
 I wanted a way for people to submit songs thats better than a simple text input. So I used spotify's api for this.
-![Search screen with results under it](assets/submit_screen.png)
+![Search screen with results under it](assets/screens/search.jpg)
 
 I proxied spotify's search endpoint through the api, and made a song search that resembles google.  
 Note that you had to click one of the results, you could not send in arbitrary text. This confused a few people.  
@@ -42,7 +42,7 @@ So when a user submits a song we:
 This worked well, and kept most songs out.
 
 ### Voting
-![](assets/vote_screen.png)
+![](assets/screens/vote.jpg)
 
 As I was inspired by [Tom Scott's Best Thing](https://www.youtube.com/watch?v=ALy6e7GbDRQ) video, I wanted the voting system to work in the same way:
 Two songs pop up next to eachother, you click on the song you liked the most.
