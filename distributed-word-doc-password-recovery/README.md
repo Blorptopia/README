@@ -1,4 +1,4 @@
-# Destributed Word Doc Password "Recovery"
+# Destributed Word Doc Password Cracking
 ## Context
 One day before VG2 was having a English exam I got this message from a classmate  
 
