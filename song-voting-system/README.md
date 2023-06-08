@@ -61,8 +61,8 @@ Execution of the voting otherwise went pretty well, however the load was way hig
 
 I also added statistics to the news screen in the school area.
 
-![Statistics screen showing 354 songs submitted and 14160 votes](assets/stats.png)
-![Screen showing ranking of songs and how many votes](assets/stats.png)
+![Statistics screen showing 354 songs submitted and 14160 votes](assets/stats/live_stats.png)
+![Screen showing ranking of songs and how many votes](assets/stats/ranking.png)
 
 ## Issues under execution
 ### Not self hosting IBM MAX
